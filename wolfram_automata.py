@@ -114,7 +114,7 @@ while y < ny_cells:
 
     pygame.display.flip()
 
-    if results.bool_gif:
+    if results.bool_gif and not pauseKey:
         frames.append(pygame.surfarray.array3d(screen))
         duration.append(dt)
 
