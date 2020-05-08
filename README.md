@@ -4,6 +4,8 @@ Elementary cellular automata have two possible values for each cell (0 or 1), an
 
 https://mathworld.wolfram.com/ElementaryCellularAutomaton.html
 
+It has been created with Pygame: https://www.pygame.org/
+
 # Instalation:
 
 The use of a virtual environment is recommended:
@@ -45,3 +47,17 @@ Rule 30 is described here:
 https://mathworld.wolfram.com/Rule30.html
 
 ![](rule30.gif)
+
+### Rule 90:
+
+Rule 90 is described here:
+https://mathworld.wolfram.com/Rule90.html
+
+![](rule90.gif)
+
+### Rule 94:
+
+Rule 94 is described here:
+https://mathworld.wolfram.com/Rule94.html
+
+![](rule94.gif)
