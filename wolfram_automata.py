@@ -124,7 +124,7 @@ if results.bool_gif:
 
     strName = "rule" + str(numRule) + ".gif"
     imageio.mimwrite(strName,
-            (fliplr(rot90(f, 3)) for f in frames), duration=duration)
+            [fliplr(rot90(f, 3)) for f in frames], duration=duration)
     print("Ready!!")
 
 
